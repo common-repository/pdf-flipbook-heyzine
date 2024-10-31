@@ -1,0 +1,380 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Heyzine\n"
+"POT-Creation-Date: 2023-10-30 13:19+0100\n"
+"PO-Revision-Date: 2023-10-30 13:24+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: pdf-flipbook-heyzine.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-cl-heyzine-admin.php:141
+#, fuzzy
+msgid "Select file to create new heyzine"
+msgstr "Wählen Sie die Datei aus, um ein neues Heyzine zu erstellen"
+
+#: admin/class-cl-heyzine-admin.php:142
+msgid "Select file"
+msgstr "Datei auswählen"
+
+#: admin/class-cl-heyzine-admin.php:143
+msgid "Shortcode copied to clipboard!"
+msgstr "Shortcode in Zwischenablage kopiert!"
+
+#: admin/class-cl-heyzine-admin.php:144
+#, fuzzy
+msgid "ERROR copying shortcode to clipboard!"
+msgstr "FEHLER beim Kopieren des Shortcodes in die Zwischenablage!"
+
+#: admin/class-cl-heyzine-admin.php:145 heyzine-block/src/edit.js:79
+#: heyzine-block/src/edit.js:105
+msgid "Page"
+msgstr "Seite"
+
+#: admin/class-cl-heyzine-admin.php:232
+#, fuzzy
+msgid "You can not view this private data."
+msgstr "Sie können diese privaten Daten nicht einsehen."
+
+#: admin/class-cl-heyzine-admin.php:270
+#, fuzzy
+msgid "The flipbook does not exist."
+msgstr "Das Daumenkino existiert nicht."
+
+#: admin/class-cl-heyzine-admin.php:377
+#, fuzzy
+msgid "Error: File URL not valid"
+msgstr "Fehler: Datei-URL ungültig"
+
+#: admin/class-cl-heyzine-admin.php:383
+#, fuzzy
+msgid "Error validating nonce"
+msgstr "Fehler beim Validieren der Nonce"
+
+#: admin/class-cl-heyzine-admin.php:527
+#, fuzzy
+msgid "Heyzine settings page"
+msgstr "Heyzine-Einstellungsseite"
+
+#: admin/class-cl-heyzine-admin.php:555
+#, fuzzy
+msgid "Invalid nonce state"
+msgstr "Ungültiger Nonce-Status"
+
+#: admin/partials/cl-heyzine-admin-error-token.php:15
+#, fuzzy
+msgid "Error obtaining token"
+msgstr "Fehler beim Abrufen des Tokens"
+
+#. Author of the plugin/theme
+#: admin/partials/cl-heyzine-admin-invalid-token.php:15
+#: admin/partials/cl-heyzine-admin-valid-token.php:29
+#, fuzzy
+msgid "Heyzine"
+msgstr "Heyzine"
+
+#: admin/partials/cl-heyzine-admin-invalid-token.php:17
+#, fuzzy
+msgid ""
+"You don't have a HeyZine valid token configured. Please click this button to "
+"autenthicate with your Heyzine account or create a new one."
+msgstr ""
+"Sie haben kein gültiges HeyZine-Token konfiguriert. Bitte klicken Sie auf "
+"diese Schaltfläche, um sich mit Ihrem Heyzine-Konto anzumelden oder ein "
+"neues Konto zu erstellen."
+
+#: admin/partials/cl-heyzine-admin-invalid-token.php:24
+#, fuzzy
+msgid "Try to authenticate again."
+msgstr "Versuchen Sie erneut, sich zu authentifizieren."
+
+#: admin/partials/cl-heyzine-admin-invalid-token.php:30
+#, fuzzy
+msgid "Authenticate with Heyzine"
+msgstr "Authentifizierung mit Heyzine"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:35
+#, fuzzy
+msgid "Heyzine cache deleted."
+msgstr "Heyzine-Cache gelöscht."
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:43
+#, fuzzy
+msgid "Heyzine submited for creation."
+msgstr "Heyzine hat sich zur Kreation beworben."
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:44
+#, fuzzy
+msgid ""
+"Now your Heyzine is working on the conversion process and will be available "
+"shortly."
+msgstr ""
+"Jetzt arbeitet Ihr Heyzine an der Konvertierung und wird in Kürze verfügbar "
+"sein."
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:45
+#, fuzzy
+msgid ""
+"Update this page in a few minutes and delete Heyzine cache to view the new "
+"Flipbook."
+msgstr ""
+"Aktualisieren Sie diese Seite in wenigen Minuten und löschen Sie den Heyzine-"
+"Cache, um das neue Daumenkino anzuzeigen."
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:51
+#, fuzzy
+msgid "Error creating Heyzine."
+msgstr "Fehler beim Erstellen von Heyzine."
+
+#. translators: %s: Heyzine API token expiration date and time..
+#: admin/partials/cl-heyzine-admin-valid-token.php:62
+#, fuzzy, php-format
+msgid "Your token is valid until %s"
+msgstr "Ihr Token ist bis %s"
+
+#. translators: %s: Number of Heyzines.
+#: admin/partials/cl-heyzine-admin-valid-token.php:71
+#, fuzzy, php-format
+msgid "In your account, you have %s Heyzines."
+msgstr "In Ihrem Konto haben Sie %s Heyzines."
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:79
+#, fuzzy
+msgid ""
+"You can now create a new Heyzine from your posts, using a shortcode or with "
+"a Gutenberg block."
+msgstr ""
+"Du kannst nun aus deinen Beiträgen ein neues Heyzine erstellen, indem du "
+"einen Shortcode oder einen Gutenberg-Block verwendest."
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:81
+#, fuzzy
+msgid ""
+"Once you insert a new Heyzine into your page or post, it is pure HTML, so it "
+"will work even if the API key is invalid or expired."
+msgstr ""
+"Sobald Sie ein neues Heyzine in Ihre Seite oder Ihren Beitrag einfügen, "
+"handelt es sich um reines HTML, sodass es auch dann funktioniert, wenn der "
+"API-Schlüssel ungültig oder abgelaufen ist."
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:90
+#, fuzzy
+msgid "Heyzine shortcode"
+msgstr "Heyzine Shortcode"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:93
+#, fuzzy
+msgid "Select your Heyzine title to view the shortcode to embed it."
+msgstr ""
+"Wählen Sie Ihren Heyzine-Titel aus, um den Shortcode zum Einbetten "
+"anzuzeigen."
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:96
+#, fuzzy
+msgid "Select a Heyzine"
+msgstr "Wählen Sie ein Heyzine"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:115
+#: heyzine-block/src/edit.js:223
+msgid "Customize"
+msgstr "Anpassen"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:120
+#: heyzine-block/src/edit.js:228
+msgid "Responsive width"
+msgstr "Breite (responsive)"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:125
+#: heyzine-block/src/edit.js:237
+#, fuzzy
+msgid "Flipbook width"
+msgstr "Breite des Daumenkinos"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:130
+#: heyzine-block/src/edit.js:251
+#, fuzzy
+msgid "Flipbook height"
+msgstr "Höhe des Daumenkinos"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:134
+msgid "Select page"
+msgstr "Seite auswählen"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:140
+#: heyzine-block/src/edit.js:276
+#, fuzzy
+msgid "Show Heyzine title"
+msgstr "Heyzine-Titel anzeigen"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:146
+#: heyzine-block/src/edit.js:284
+#, fuzzy
+msgid "Show Heyzine subtitle"
+msgstr "Heyzine-Untertitel anzeigen"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:152
+#: heyzine-block/src/edit.js:292
+#, fuzzy
+msgid "Show Heyzine description"
+msgstr "Heyzine Beschreibung anzeigen"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:158
+#: heyzine-block/src/edit.js:300
+#, fuzzy
+msgid "Show Heyzine link to heyzine page"
+msgstr "Heyzine-Link zur Heyzine-Seite anzeigen"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:161
+#, fuzzy
+msgid "Click to copy the shortcode to clipboard"
+msgstr "Klicken Sie hier, um den Shortcode in die Zwischenablage zu kopieren"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:171
+#: admin/partials/cl-heyzine-admin-valid-token.php:182
+#, fuzzy
+msgid "Create a new Heyzine"
+msgstr "Erstelle ein neues Heyzine"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:174
+#, fuzzy
+msgid ""
+"If you want to upload a new file to create a Heyzine, you can do it from the "
+"below form."
+msgstr ""
+"Wenn Sie eine neue Datei hochladen möchten, um ein Heyzine zu erstellen, "
+"können Sie dies über das untenstehende Formular tun."
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:181
+#, fuzzy
+msgid "Upload file to create a new Heyzine"
+msgstr "Datei hochladen, um ein neues Heyzine zu erstellen"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:190
+#, fuzzy
+msgid "Delete cache & API key"
+msgstr "Cache & API-Schlüssel löschen"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:194
+#, fuzzy
+msgid "Delete Heyzine cache"
+msgstr "Heyzine-Cache löschen"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:196
+msgid "Delete cache"
+msgstr "Cache löschen"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:200
+#, fuzzy
+msgid "Delete Heyzine API Token"
+msgstr "Heyzine-API-Token löschen"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:202
+msgid "Delete token"
+msgstr "Token löschen"
+
+#: heyzine-block/src/edit.js:72 heyzine-block/src/edit.js:208
+#, fuzzy
+msgid "Select a Heyzine:"
+msgstr "Wählen Sie ein Heyzine aus:"
+
+#: heyzine-block/src/edit.js:203
+msgid "Embed"
+msgstr "Einbetten"
+
+#: heyzine-block/src/edit.js:209
+#, fuzzy
+msgid "Select the Heyzine title to be inserted"
+msgstr "Wählen Sie den Heyzine-Titel aus, der eingefügt werden soll"
+
+#: heyzine-block/src/edit.js:229
+#, fuzzy
+msgid ""
+"Determines whether the width will be responsive and depending of the Heyzine "
+"height"
+msgstr ""
+"Bestimmt, ob die Breite responsiv ist und abhängig von der Heyzine-Höhe"
+
+#: heyzine-block/src/edit.js:238
+#, fuzzy
+msgid "Sets the width of the embedded Heyzine"
+msgstr "Legt die Breite des eingebetteten Heyzine fest"
+
+#: heyzine-block/src/edit.js:252
+#, fuzzy
+msgid "Sets the height of the embedded Heyzine"
+msgstr "Legt die Höhe des eingebetteten Heyzine fest"
+
+#: heyzine-block/src/edit.js:271
+msgid "Additional options"
+msgstr "Zusätzliche Optionen"
+
+#: heyzine-block/src/edit.js:277
+#, fuzzy
+msgid "Determines whether to display Heyzine title above the embed"
+msgstr ""
+"Legt fest, ob der Heyzine-Titel über der Einbettung angezeigt werden soll"
+
+#: heyzine-block/src/edit.js:285
+#, fuzzy
+msgid "Determines whether to display Heyzine subtitle above the embed"
+msgstr ""
+"Legt fest, ob der Heyzine-Untertitel über der Einbettung angezeigt werden "
+"soll"
+
+#: heyzine-block/src/edit.js:293
+#, fuzzy
+msgid "Determines whether to display Heyzine description above the embed"
+msgstr ""
+"Legt fest, ob die Heyzine-Beschreibung über der Einbettung angezeigt werden "
+"soll"
+
+#: heyzine-block/src/edit.js:301
+#, fuzzy
+msgid ""
+"Determines whether to display Heyzine link (to heyzine page) above the embed"
+msgstr ""
+"Legt fest, ob der Heyzine-Link (zur Heyzine-Seite) über der Einbettung "
+"angezeigt werden soll"
+
+#: heyzine-block/src/edit.js:310
+msgid "Loading..."
+msgstr "Lade..."
+
+#: heyzine-block/src/edit.js:315
+#, fuzzy
+msgid "Select a Heyzine to embed"
+msgstr "Wählen Sie ein Heyzine zum Einbetten aus"
+
+#: heyzine-block/src/edit.js:321
+#, fuzzy
+msgid "There are no Heyzines availables"
+msgstr "Es sind keine Heyzines verfügbar"
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "PDF Flipbook Heyzine"
+msgstr "Höhe des Daumenkinos"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://heyzine.com"
+msgstr "https://heyzine.com"
+
+#. Description of the plugin/theme
+msgid ""
+"Heyzine is a flipbook maker for realistic page turn effects or slideshows "
+"with your PDF. Customize the PDF viewer with your own brand and style and "
+"add interactivity like videos, audios, or any kind of embed to your PDF."
+msgstr ""

@@ -1,0 +1,378 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Heyzine\n"
+"POT-Creation-Date: 2023-10-30 13:19+0100\n"
+"PO-Revision-Date: 2023-10-30 13:23+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: pdf-flipbook-heyzine.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-cl-heyzine-admin.php:141
+#, fuzzy
+msgid "Select file to create new heyzine"
+msgstr "Seleccioneu el fitxer per crear un heyzine nou"
+
+#: admin/class-cl-heyzine-admin.php:142
+msgid "Select file"
+msgstr "Seleccioneu el fitxer"
+
+#: admin/class-cl-heyzine-admin.php:143
+#, fuzzy
+msgid "Shortcode copied to clipboard!"
+msgstr "Shortcode copiat al porta-retalls!"
+
+#: admin/class-cl-heyzine-admin.php:144
+#, fuzzy
+msgid "ERROR copying shortcode to clipboard!"
+msgstr "ERROR copiant shortcode al porta-retalls!"
+
+#: admin/class-cl-heyzine-admin.php:145 heyzine-block/src/edit.js:79
+#: heyzine-block/src/edit.js:105
+msgid "Page"
+msgstr "Pàgina"
+
+#: admin/class-cl-heyzine-admin.php:232
+#, fuzzy
+msgid "You can not view this private data."
+msgstr "No es poden visualitzar aquestes dades privades."
+
+#: admin/class-cl-heyzine-admin.php:270
+#, fuzzy
+msgid "The flipbook does not exist."
+msgstr "El flipbook no existeix."
+
+#: admin/class-cl-heyzine-admin.php:377
+#, fuzzy
+msgid "Error: File URL not valid"
+msgstr "Error: L'URL del fitxer no és vàlid"
+
+#: admin/class-cl-heyzine-admin.php:383
+#, fuzzy
+msgid "Error validating nonce"
+msgstr "Error validant nonce"
+
+#: admin/class-cl-heyzine-admin.php:527
+#, fuzzy
+msgid "Heyzine settings page"
+msgstr "Pàgina de configuració de Heyzine"
+
+#: admin/class-cl-heyzine-admin.php:555
+#, fuzzy
+msgid "Invalid nonce state"
+msgstr "Estat nonce no vàlid"
+
+#: admin/partials/cl-heyzine-admin-error-token.php:15
+#, fuzzy
+msgid "Error obtaining token"
+msgstr "Error en l'obtenció del testimoni"
+
+#. Author of the plugin/theme
+#: admin/partials/cl-heyzine-admin-invalid-token.php:15
+#: admin/partials/cl-heyzine-admin-valid-token.php:29
+#, fuzzy
+msgid "Heyzine"
+msgstr "Heyzine"
+
+#: admin/partials/cl-heyzine-admin-invalid-token.php:17
+#, fuzzy
+msgid ""
+"You don't have a HeyZine valid token configured. Please click this button to "
+"autenthicate with your Heyzine account or create a new one."
+msgstr ""
+"No teniu configurat cap testimoni vàlid HeyZine. Feu clic en aquest botó per "
+"autenticar-vos amb el vostre compte de Heyzine o crear-ne un de nou."
+
+#: admin/partials/cl-heyzine-admin-invalid-token.php:24
+#, fuzzy
+msgid "Try to authenticate again."
+msgstr "Proveu de tornar a autenticar-vos."
+
+#: admin/partials/cl-heyzine-admin-invalid-token.php:30
+#, fuzzy
+msgid "Authenticate with Heyzine"
+msgstr "Autenticar-se amb Heyzine"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:35
+#, fuzzy
+msgid "Heyzine cache deleted."
+msgstr "S'ha suprimit la memòria cau de Heyzine."
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:43
+#, fuzzy
+msgid "Heyzine submited for creation."
+msgstr "Heyzine es va sotmetre a la creació."
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:44
+#, fuzzy
+msgid ""
+"Now your Heyzine is working on the conversion process and will be available "
+"shortly."
+msgstr ""
+"Ara el vostre Heyzine està treballant en el procés de conversió i estarà "
+"disponible en breu."
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:45
+#, fuzzy
+msgid ""
+"Update this page in a few minutes and delete Heyzine cache to view the new "
+"Flipbook."
+msgstr ""
+"Actualitzeu aquesta pàgina en pocs minuts i suprimiu la memòria cau de "
+"Heyzine per veure el nou Flipbook."
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:51
+#, fuzzy
+msgid "Error creating Heyzine."
+msgstr "Error en crear Heyzine."
+
+#. translators: %s: Heyzine API token expiration date and time..
+#: admin/partials/cl-heyzine-admin-valid-token.php:62
+#, fuzzy, php-format
+msgid "Your token is valid until %s"
+msgstr "El vostre testimoni és vàlid fins al %s"
+
+#. translators: %s: Number of Heyzines.
+#: admin/partials/cl-heyzine-admin-valid-token.php:71
+#, fuzzy, php-format
+msgid "In your account, you have %s Heyzines."
+msgstr "Al vostre compte, teniu %s Heyzines."
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:79
+#, fuzzy
+msgid ""
+"You can now create a new Heyzine from your posts, using a shortcode or with "
+"a Gutenberg block."
+msgstr ""
+"Ara podeu crear un Heyzine nou des de les vostres publicacions, utilitzant "
+"un codi curt o amb un bloc Gutenberg."
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:81
+#, fuzzy
+msgid ""
+"Once you insert a new Heyzine into your page or post, it is pure HTML, so it "
+"will work even if the API key is invalid or expired."
+msgstr ""
+"Un cop inseriu un Heyzine nou a la vostra pàgina o publicació, és HTML pur, "
+"de manera que funcionarà fins i tot si la clau de l'API no és vàlida o ha "
+"caducat."
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:90
+#, fuzzy
+msgid "Heyzine shortcode"
+msgstr "Codi curt Heyzine"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:93
+#, fuzzy
+msgid "Select your Heyzine title to view the shortcode to embed it."
+msgstr ""
+"Seleccioneu el títol de Heyzine per veure el codi curt per incrustar-lo."
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:96
+#, fuzzy
+msgid "Select a Heyzine"
+msgstr "Seleccioneu un Heyzine"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:115
+#: heyzine-block/src/edit.js:223
+msgid "Customize"
+msgstr "Personalitzar"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:120
+#: heyzine-block/src/edit.js:228
+#, fuzzy
+msgid "Responsive width"
+msgstr "Amplada sensible"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:125
+#: heyzine-block/src/edit.js:237
+#, fuzzy
+msgid "Flipbook width"
+msgstr "Amplada del flipbook"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:130
+#: heyzine-block/src/edit.js:251
+#, fuzzy
+msgid "Flipbook height"
+msgstr "Alçada del flipbook"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:134
+msgid "Select page"
+msgstr "Seleccionar pàgina"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:140
+#: heyzine-block/src/edit.js:276
+#, fuzzy
+msgid "Show Heyzine title"
+msgstr "Mostra el títol de Heyzine"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:146
+#: heyzine-block/src/edit.js:284
+#, fuzzy
+msgid "Show Heyzine subtitle"
+msgstr "Mostra el subtítol de Heyzine"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:152
+#: heyzine-block/src/edit.js:292
+#, fuzzy
+msgid "Show Heyzine description"
+msgstr "Mostra la descripció de Heyzine"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:158
+#: heyzine-block/src/edit.js:300
+#, fuzzy
+msgid "Show Heyzine link to heyzine page"
+msgstr "Mostra l'enllaç de Heyzine a la pàgina de heyzine"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:161
+#, fuzzy
+msgid "Click to copy the shortcode to clipboard"
+msgstr "Feu clic per copiar el codi curt al porta-retalls"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:171
+#: admin/partials/cl-heyzine-admin-valid-token.php:182
+#, fuzzy
+msgid "Create a new Heyzine"
+msgstr "Crea un Heyzine nou"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:174
+#, fuzzy
+msgid ""
+"If you want to upload a new file to create a Heyzine, you can do it from the "
+"below form."
+msgstr ""
+"Si voleu pujar un nou fitxer per crear un Heyzine, podeu fer-ho des del "
+"formulari següent."
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:181
+#, fuzzy
+msgid "Upload file to create a new Heyzine"
+msgstr "Carregueu un fitxer per crear un Heyzine nou"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:190
+#, fuzzy
+msgid "Delete cache & API key"
+msgstr "Suprimir la memòria cau i la clau API"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:194
+#, fuzzy
+msgid "Delete Heyzine cache"
+msgstr "Suprimeix la memòria cau de Heyzine"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:196
+#, fuzzy
+msgid "Delete cache"
+msgstr "Suprimir la memòria cau"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:200
+#, fuzzy
+msgid "Delete Heyzine API Token"
+msgstr "Suprimiu el testimoni de l'API de Heyzine"
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:202
+msgid "Delete token"
+msgstr "Suprimeix el testimoni"
+
+#: heyzine-block/src/edit.js:72 heyzine-block/src/edit.js:208
+#, fuzzy
+msgid "Select a Heyzine:"
+msgstr "Seleccioneu un Heyzine:"
+
+#: heyzine-block/src/edit.js:203
+msgid "Embed"
+msgstr "Incrusta"
+
+#: heyzine-block/src/edit.js:209
+#, fuzzy
+msgid "Select the Heyzine title to be inserted"
+msgstr "Seleccioneu el títol Heyzine que voleu inserir"
+
+#: heyzine-block/src/edit.js:229
+#, fuzzy
+msgid ""
+"Determines whether the width will be responsive and depending of the Heyzine "
+"height"
+msgstr "Determina si l'amplada serà sensible i depenent de l'alçada de Heyzine"
+
+#: heyzine-block/src/edit.js:238
+#, fuzzy
+msgid "Sets the width of the embedded Heyzine"
+msgstr "Defineix l'amplada del Heyzine incrustat"
+
+#: heyzine-block/src/edit.js:252
+#, fuzzy
+msgid "Sets the height of the embedded Heyzine"
+msgstr "Estableix l'alçada del Heyzine incrustat"
+
+#: heyzine-block/src/edit.js:271
+msgid "Additional options"
+msgstr "Opcions addicionals"
+
+#: heyzine-block/src/edit.js:277
+#, fuzzy
+msgid "Determines whether to display Heyzine title above the embed"
+msgstr ""
+"Determina si s'ha de mostrar el títol del Heyzine a sobre de la inserció"
+
+#: heyzine-block/src/edit.js:285
+#, fuzzy
+msgid "Determines whether to display Heyzine subtitle above the embed"
+msgstr ""
+"Determina si s'ha de mostrar el subtítol Heyzine a sobre de la inserció"
+
+#: heyzine-block/src/edit.js:293
+#, fuzzy
+msgid "Determines whether to display Heyzine description above the embed"
+msgstr ""
+"Determina si s'ha de mostrar la descripció del Heyzine a sobre de la inserció"
+
+#: heyzine-block/src/edit.js:301
+#, fuzzy
+msgid ""
+"Determines whether to display Heyzine link (to heyzine page) above the embed"
+msgstr ""
+"Determina si s'ha de mostrar l'enllaç Heyzine (a la pàgina heyzine) a sobre "
+"de la inserció"
+
+#: heyzine-block/src/edit.js:310
+msgid "Loading..."
+msgstr "Carregant…"
+
+#: heyzine-block/src/edit.js:315
+#, fuzzy
+msgid "Select a Heyzine to embed"
+msgstr "Seleccioneu un Heyzine per incrustar"
+
+#: heyzine-block/src/edit.js:321
+#, fuzzy
+msgid "There are no Heyzines availables"
+msgstr "No hi ha Heyzines disponibles"
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "PDF Flipbook Heyzine"
+msgstr "Alçada del flipbook"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://heyzine.com"
+msgstr "https://heyzine.com"
+
+#. Description of the plugin/theme
+msgid ""
+"Heyzine is a flipbook maker for realistic page turn effects or slideshows "
+"with your PDF. Customize the PDF viewer with your own brand and style and "
+"add interactivity like videos, audios, or any kind of embed to your PDF."
+msgstr ""

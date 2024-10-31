@@ -1,0 +1,98 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "cl-heyzine-block/heyzine-block",
+  "version": "0.1.0",
+  "title": "Heyzine",
+  "category": "embed",
+  "icon": "heyzine",
+  "description": "Embed a Heyzine",
+  "supports": {
+    "html": true
+  },
+  "textdomain": "pdf-flipbook-heyzine",
+  "attributes": {
+    "message": {
+      "type": "string",
+      "default": "Heyzine embed block"
+    },
+    "heyzines": {
+      "type": "object"
+    },
+    "heyzineSelected": {
+      "type": "string"
+    },
+    "heyzineTitle": {
+      "type": "string"
+    },
+    "heyzineSubTitle": {
+      "type": "string"
+    },
+    "heyzineDescription": {
+      "type": "string"
+    },
+    "heyzineLink": {
+      "type": "string"
+    },
+    "heyzineLinkPage": {
+      "type": "string",
+      "default": "https://heyzine.com/"
+    },
+    "heyzinePages": {
+      "type": "integer",
+      "default": 0
+    },
+    "heyzineEmbedPage": {
+      "type": "integer",
+      "default": 0
+    },
+    "customizeDisabled": {
+      "type": "boolean",
+      "default": true
+    },
+    "showTitle": {
+      "type": "boolean",
+      "default": false
+    },
+    "showSubTitle": {
+      "type": "boolean",
+      "default": false
+    },
+    "showDescription": {
+      "type": "boolean",
+      "default": false
+    },
+    "showLink": {
+      "type": "boolean",
+      "default": false
+    },
+    "responsiveWidth": {
+      "type": "boolean",
+      "default": true
+    },
+    "pagesEnabled": {
+      "type": "boolean",
+      "default": false
+    },
+    "flibookWidth": {
+      "type": "integer",
+      "default": 800
+    },
+    "flibookHeight": {
+      "type": "integer",
+      "default": 500
+    }
+  },
+  "keywords": [
+    "heyzine",
+    "embed",
+    "magazine",
+    "publication",
+    "pdf",
+    "flipbook",
+    "flip book"
+  ],
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
